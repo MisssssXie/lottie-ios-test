@@ -27,7 +27,10 @@ For the first time, designers can create and ship beautiful animations without a
   s.osx.deployment_target = '10.10'
   s.tvos.deployment_target = '9.0'
 
-  s.source_files = 'lottie-swift/src/**/*'
+  s.source_files = 'lottie-swift/src/**/*.swift'
+  s.resource_bundles = {
+    'LottiePrivacyInfo' => ['lottie-swift/src/PrivacyInfo.xcprivacy'],
+  }
   s.ios.source_files = 'lottie-swift/iOS/*.swift'
   s.ios.exclude_files = 'lottie-swift/src/Public/MacOS/**/*'
   s.tvos.exclude_files = 'lottie-swift/src/Public/MacOS/**/*'

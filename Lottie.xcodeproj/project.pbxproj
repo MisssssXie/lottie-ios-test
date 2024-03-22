@@ -13,6 +13,9 @@
 		25D5437322307C8800ED90FA /* CompatibleAnimationKeypath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D543702230787900ED90FA /* CompatibleAnimationKeypath.swift */; };
 		25D5437422307C8B00ED90FA /* CompatibleAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D5436E22306E2D00ED90FA /* CompatibleAnimationView.swift */; };
 		25D5437522307C8C00ED90FA /* CompatibleAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D5436E22306E2D00ED90FA /* CompatibleAnimationView.swift */; };
+		3642FAF82BAD40EC00E10283 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 3642FAF72BAD40EC00E10283 /* PrivacyInfo.xcprivacy */; };
+		3642FAF92BAD40EC00E10283 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 3642FAF72BAD40EC00E10283 /* PrivacyInfo.xcprivacy */; };
+		3642FAFA2BAD40EC00E10283 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 3642FAF72BAD40EC00E10283 /* PrivacyInfo.xcprivacy */; };
 		37A137F42265AF5B00E371E5 /* TextCompositionLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486E8724220B78BF007CD915 /* TextCompositionLayer.swift */; };
 		37A137F52265AF5C00E371E5 /* TextCompositionLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486E8724220B78BF007CD915 /* TextCompositionLayer.swift */; };
 		4866744122249C4E00258C00 /* TextAnimatorNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4866744022249C4E00258C00 /* TextAnimatorNode.swift */; };
@@ -662,6 +665,7 @@
 /* Begin PBXFileReference section */
 		25D5436E22306E2D00ED90FA /* CompatibleAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompatibleAnimationView.swift; sourceTree = "<group>"; };
 		25D543702230787900ED90FA /* CompatibleAnimationKeypath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompatibleAnimationKeypath.swift; sourceTree = "<group>"; };
+		3642FAF72BAD40EC00E10283 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		4866744022249C4E00258C00 /* TextAnimatorNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextAnimatorNode.swift; sourceTree = "<group>"; };
 		486E8395220A3038007CD915 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		486E83B2220A317C007CD915 /* Lottie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Lottie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -890,6 +894,7 @@
 		486E86FA220B78BF007CD915 /* src */ = {
 			isa = PBXGroup;
 			children = (
+				3642FAF72BAD40EC00E10283 /* PrivacyInfo.xcprivacy */,
 				486E86FB220B78BF007CD915 /* Public */,
 				486E871F220B78BF007CD915 /* Private */,
 			);
@@ -1549,6 +1554,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3642FAF82BAD40EC00E10283 /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1556,6 +1562,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3642FAF92BAD40EC00E10283 /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1563,6 +1570,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3642FAFA2BAD40EC00E10283 /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
